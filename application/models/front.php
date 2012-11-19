@@ -86,8 +86,13 @@ class FrontController
 		return $this->_action;
 	}
 
-	public function setBody()
+	public function getBody()
 	{
 		return $this->_body;
+	}
+
+	public function setBody($body)
+	{
+		$this->_body = $body;
 	}
 }

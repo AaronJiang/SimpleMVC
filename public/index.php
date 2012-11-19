@@ -1,5 +1,4 @@
 <?php
-
 //include models
 require_once '../application/models/front.php';
 require_once '../application/models/icontroller.php';
